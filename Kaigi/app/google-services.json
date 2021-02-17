@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "691899198464",
+    "project_id": "kaigi-b183b",
+    "storage_bucket": "kaigi-b183b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691899198464:android:60bd3c3cff69a8e78d3ce5",
+        "android_client_info": {
+          "package_name": "com.example.kaigi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691899198464-u9jcaot9bp9i60uqqlvjao1nju87li4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7I3Ele_GIMNJInpjZDzgkLY9LI3A6VCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691899198464-u9jcaot9bp9i60uqqlvjao1nju87li4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

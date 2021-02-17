@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:id="@+id/welcome"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        tools:layout_marginLeft="144dp"
+        tools:layout_marginTop="46dp" />
+
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="103dp"
+
+        android:text="Helloji"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please sign up"
+        tools:layout_marginLeft="114dp"
+        tools:layout_marginTop="342dp" />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        tools:layout_marginTop="398dp">
+    </Button>
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/welcome"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="42dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logg with email"
+        tools:layout_marginLeft="130dp"
+        tools:layout_marginTop="498dp" />
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        tools:layout_marginLeft="217dp"
+        tools:layout_marginTop="398dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="signup karo"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+
+        android:textColor="#FFFFFF"
+        tools:layout_marginLeft="29dp"
+        tools:layout_marginTop="557dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="done or not"
+        android:textSize="12sp"
+        tools:layout_marginLeft="105dp"
+        tools:layout_marginTop="652dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Login"
+        android:id="@+id/logintb"
+        android:textColor="#117A9F"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_marginLeft="259dp"
+        tools:layout_marginTop="652dp"
+        android:focusable="true" />
+</RelativeLayout>
